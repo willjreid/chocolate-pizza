@@ -16,7 +16,19 @@
   font-family: sans-serif;
   color: #GGG;
 }
-#iconList {
+#brand {
+  float: left;
+}
+#icons {
+
+  float: right;
+}
+.iconList {
   list-style-type: none;
-  display: inline-block;
+  display: inline;
+}
+header {
+  overflow: auto;
+  border-bottom: 10px grey dotted;
+
 }
