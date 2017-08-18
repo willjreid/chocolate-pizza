@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  font-family: serif;
 }
 #slogan {
   display: inline-block;
@@ -30,5 +29,14 @@
 header {
   overflow: auto;
   border-bottom: 10px grey dotted;
-
+}
+#article-name {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1.5px;
+  margin: 0;
+}
+#date {
+  font-size: 8px;
+  color: gray;
+  margin: 0;
 }
