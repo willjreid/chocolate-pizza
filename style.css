@@ -66,4 +66,10 @@ body{
 .ingredients {
   font-family: 'Delius', cursive;
   list-style-type: square;
+  font-size: 20px;
+  margin: 52px;
+}
+#paper {
+  z-index: -1;
+  position: absolute;
 }
