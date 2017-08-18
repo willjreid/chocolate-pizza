@@ -30,6 +30,9 @@ header {
   overflow: auto;
   border-bottom: 10px grey dotted;
 }
+body{
+  margin: 2% 5%;
+}
 #article-info {
   float: left;
   overflow: auto;
@@ -50,4 +53,8 @@ header {
 #print {
   float: right;
   overflow: auto;
+  padding-top: 40px;
+}
+#printCommand {
+  display: inline;
 }
