@@ -65,4 +65,5 @@ body{
 }
 .ingredients {
   font-family: 'Delius', cursive;
+  list-style-type: square;
 }
