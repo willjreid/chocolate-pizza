@@ -75,6 +75,9 @@ body{
 .leftColumn {
   width: 35%;
 }
+.crossedOut {
+  text-decoration: line-through;
+}
 #paper {
   z-index: -1;
   position: absolute;
