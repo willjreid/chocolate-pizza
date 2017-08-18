@@ -66,8 +66,14 @@ body{
 .ingredients {
   font-family: 'Delius', cursive;
   list-style-type: square;
-  font-size: 20px;
+  font-size: 21px;
   margin: 52px;
+}
+.rightColumn {
+  padding-left: 100px;
+}
+.leftColumn {
+  width: 35%;
 }
 #paper {
   z-index: -1;
