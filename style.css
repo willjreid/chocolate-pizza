@@ -36,7 +36,7 @@ body{
 #article-info {
   float: left;
   overflow: auto;
-  width: 50%;
+  width: 70%;
 }
 #article-name {
   font-family: 'Anton', sans-serif;
@@ -57,4 +57,9 @@ body{
 }
 #printCommand {
   display: inline;
+}
+.steps{
+  text-indent: 30px;
+  font-family: 'Crimson Text', serif;
+  color: #545050;
 }
