@@ -30,13 +30,24 @@ header {
   overflow: auto;
   border-bottom: 10px grey dotted;
 }
+#article-info {
+  float: left;
+  overflow: auto;
+  width: 50%;
+}
 #article-name {
   font-family: 'Anton', sans-serif;
   letter-spacing: 1.5px;
   margin: 0;
+  width: 50%;
 }
 #date {
   font-size: 8px;
   color: gray;
   margin: 0;
+  width: 50%;
+}
+#print {
+  float: right;
+  overflow: auto;
 }
