@@ -11,6 +11,7 @@
   font-family: cursive;
   font-size: 24px;
   margin: 0px 3px;
+  font-weight: bold;
 }
 #blog {
   margin: 0px 3px;
@@ -50,10 +51,11 @@ body{
   width: 50%;
 }
 #date {
-  font-size: 8px;
+  font-size: 10px;
   color: gray;
   margin: 0;
   width: 50%;
+  font-family: sans-serif;
 }
 #print {
   float: right;
@@ -63,7 +65,7 @@ body{
 }
 #printCommand {
   display: inline;
-  font-size: 8px;
+  font-size: 10px;
   color: gray;
 }
 #chocolatePizza {
@@ -72,7 +74,7 @@ body{
 .steps{
   text-indent: 30px;
   font-family: 'Crimson Text', serif;
-  color: #545050;
+  color: #7b7878;
   font-size: 20px;
 }
 .ingredients {
@@ -80,6 +82,7 @@ body{
   list-style-type: square;
   font-size: 21px;
   margin: 52px;
+  color: #674949;
 }
 .rightColumn {
   padding-left: 100px;
@@ -98,6 +101,7 @@ body{
   display: inline-block;
   max-width: 70%;
   font-size: 20px;
+  color: #797777;
 }
 #name {
   font-weight: bold;
@@ -134,4 +138,5 @@ body{
 }
 .copyright {
   text-align: center;
+  color: gray;
 }
