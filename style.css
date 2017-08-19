@@ -22,7 +22,6 @@
   float: left;
 }
 #icons {
-
   float: right;
 }
 .iconList {
@@ -35,6 +34,9 @@ header {
 }
 body{
   margin: 2% 19%;
+}
+#bulk-header {
+  margin-top: 60px;
 }
 #article-info {
   float: left;
@@ -64,10 +66,14 @@ body{
   font-size: 8px;
   color: gray;
 }
+#chocolatePizza {
+  margin-top: 24px;
+}
 .steps{
   text-indent: 30px;
   font-family: 'Crimson Text', serif;
   color: #545050;
+  font-size: 20px;
 }
 .ingredients {
   font-family: 'Delius', cursive;
@@ -90,6 +96,11 @@ body{
 }
 #author {
   display: inline-block;
+  max-width: 70%;
+  font-size: 20px;
+}
+#name {
+  font-weight: bold;
 }
 #button {
   background-color: rgba(255,0,0,.5);
@@ -99,6 +110,10 @@ body{
   display: inline;
   color: white;
   font-family: sans-serif;
+  position: relative;
+  top: 32px;
+}
+#centerText {
   text-align: center;
 }
 #footer {
@@ -109,7 +124,7 @@ body{
 }
 .border {
   border-top: 1px solid gray;
-  min-width: 40%;
+  min-width: 47%;
   float: left;
   margin-top: 20px;
 }
