@@ -34,7 +34,7 @@ header {
   border-bottom: 10px grey dotted;
 }
 body{
-  margin: 2% 5%;
+  margin: 2% 19%;
 }
 #article-info {
   float: left;
@@ -104,6 +104,9 @@ body{
 #footer {
   margin-top: 3em;
 }
+#bio {
+  margin-top: 100px;
+}
 .border {
   border-top: 1px solid gray;
   min-width: 40%;
@@ -113,4 +116,7 @@ body{
 #smallLogo {
   float: left;
   margin: 0 .7em;
+}
+.copyright {
+  text-align: center;
 }
