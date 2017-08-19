@@ -4,6 +4,12 @@
 .clearfix {
   clear: both;
 }
+#hash {
+  border-bottom: 5px dash black;
+  transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+}
 #slogan {
   display: inline-block;
 }
