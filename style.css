@@ -31,13 +31,26 @@
 }
 header {
   overflow: auto;
-  border-bottom: 10px grey dotted;
+}
+#hash1 {
+  margin-top: 10px;
+  height: 12px;
+  width: 100%;
+  background-image: url(images/stripe.png);
+  background-repeat: repeat-x;
+}
+#hash2 {
+  margin-top: 100px;
+  height: 12px;
+  width: 100%;
+  background-image: url(images/stripe.png);
+  background-repeat: repeat-x;
 }
 body{
   margin: 2% 19%;
 }
 #bulk-header {
-  margin-top: 60px;
+  margin-top: 25px;
 }
 #article-info {
   float: left;
@@ -124,7 +137,7 @@ body{
   margin-top: 3em;
 }
 #bio {
-  margin-top: 100px;
+  margin-top: 30px;
 }
 .border {
   border-top: 1px solid gray;
