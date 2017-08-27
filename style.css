@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+.clearfix {
+  clear: both;
+}
+#slogan {
+  display: inline-block;
+}
+#delicious {
+  font-family: cursive;
+  font-size: 24px;
+  margin: 0px 3px;
+  font-weight: bold;
+}
+#blog {
+  margin: 0px 3px;
+  font-size: 8px;
+  font-family: sans-serif;
+  color: #GGG;
+}
+#brand {
+  float: left;
+}
+#icons {
+  float: right;
+}
+.iconList {
+  list-style-type: none;
+  display: inline;
+}
+header {
+  overflow: auto;
+}
+#hash1 {
+  margin-top: 10px;
+  height: 12px;
+  width: 100%;
+  background-image: url(images/stripe.png);
+  background-repeat: repeat-x;
+}
+#hash2 {
+  margin-top: 100px;
+  height: 12px;
+  width: 100%;
+  background-image: url(images/stripe.png);
+  background-repeat: repeat-x;
+}
+body{
+  margin: 2% 19%;
+}
+#bulk-header {
+  margin-top: 25px;
+}
+#article-info {
+  float: left;
+  overflow: auto;
+  width: 70%;
+}
+#article-name {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1.5px;
+  margin: 0;
+  width: 50%;
+}
+#date {
+  font-size: 10px;
+  color: gray;
+  margin: 0;
+  width: 50%;
+  font-family: sans-serif;
+}
+#print {
+  float: right;
+  overflow: auto;
+  padding-top: 40px;
+  font-family: sans-serif;
+}
+#printCommand {
+  display: inline;
+  font-size: 10px;
+  color: gray;
+}
+#chocolatePizza {
+  margin-top: 24px;
+}
+.steps{
+  text-indent: 30px;
+  font-family: 'Crimson Text', serif;
+  color: #7b7878;
+  font-size: 20px;
+}
+.ingredients {
+  font-family: 'Delius', cursive;
+  list-style-type: square;
+  font-size: 21px;
+  margin: 52px;
+  color: #674949;
+}
+.rightColumn {
+  padding-left: 100px;
+}
+.leftColumn {
+  width: 35%;
+}
+.crossedOut {
+  text-decoration: line-through;
+}
+#paper {
+  z-index: -1;
+  position: absolute;
+}
+#author {
+  display: inline-block;
+  max-width: 70%;
+  font-size: 20px;
+  color: #797777;
+}
+#name {
+  font-weight: bold;
+}
+#button {
+  background-color: rgba(255,0,0,.5);
+  width: 170px;
+  height: 50px;
+  float: right;
+  display: inline;
+  color: white;
+  font-family: sans-serif;
+  position: relative;
+  top: 32px;
+}
+#centerText {
+  text-align: center;
+}
+#footer {
+  margin-top: 3em;
+}
+#bio {
+  margin-top: 30px;
+}
+.border {
+  border-top: 1px solid gray;
+  min-width: 47%;
+  float: left;
+  margin-top: 20px;
+}
+#smallLogo {
+  float: left;
+  margin: 0 .7em;
+}
+.copyright {
+  text-align: center;
+  color: gray;
+}
